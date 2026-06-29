@@ -1,0 +1,114 @@
+logs saved to logs/train_FD002_to_FD004_type3_20260616-122302
+source=FD002, target=FD004, a=0.1, b=0.5, epochs=240, type=latent no-align, lr=0.001, scheduler=step, optimizer=adamw, weight_decay=0.0001, latent_dim=16, latent_split=0, latent_split_auto=1, deg_latent_dim=16, fault_latent_dim=0, latent_weight=0.05, target_latent_weight=0.01, latent_ramp_epoch=40, latent_max_factor=1.0, mono_weight=0.02, target_mono_weight=0.005, ema_decay=0.0, patience=60, plateau_start_epoch=45, early_stop_start_epoch=80, validate_all_target=0, final_eval_all_target=1, eval_all_every=5, eval_all_on_best=1, protect_evalbest=1, clip_rul=1, no source-target alignment
+0/240| loss1=0.06768, latent=0.00000, mono=0.00000, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.050, rmse=17.33398, ema_rmse=none, selected=raw:17.33398
+min=17.333975948317295 at epoch=0 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=17.139858114075643 at epoch=0 from raw
+1/240| loss1=0.02986, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.100, rmse=13.80899, ema_rmse=none, selected=raw:13.80899
+min=13.808987260454547 at epoch=1 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=14.00838060891742 at epoch=1 from raw
+2/240| loss1=0.02624, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.150, rmse=15.22359, ema_rmse=none, selected=raw:15.22359
+3/240| loss1=0.02532, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.200, rmse=13.67386, ema_rmse=none, selected=raw:13.67386
+min=13.673859648021043 at epoch=3 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=13.862447631402055 at epoch=3 from raw
+4/240| loss1=0.02456, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.250, rmse=13.85307, ema_rmse=none, selected=raw:13.85307
+5/240| loss1=0.02397, latent=0.00052, mono=0.00001, recon=0.34139, smooth=0.03847, decor=0.35151, lf=0.025, mf=0.300, rmse=13.05354, ema_rmse=none, selected=raw:13.05354
+min=13.053540982518799 at epoch=5 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=13.216272565258622 at epoch=5 from raw
+6/240| loss1=0.02301, latent=0.00071, mono=0.00001, recon=0.23387, smooth=0.03568, decor=0.35615, lf=0.050, mf=0.350, rmse=16.74515, ema_rmse=none, selected=raw:16.74515
+7/240| loss1=0.02303, latent=0.00099, mono=0.00001, recon=0.21639, smooth=0.03459, decor=0.34947, lf=0.075, mf=0.400, rmse=12.94424, ema_rmse=none, selected=raw:12.94424
+min=12.944242983534616 at epoch=7 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=13.062747076290997 at epoch=7 from raw
+8/240| loss1=0.02236, latent=0.00124, mono=0.00001, recon=0.20422, smooth=0.03462, decor=0.33503, lf=0.100, mf=0.450, rmse=12.85553, ema_rmse=none, selected=raw:12.85553
+min=12.855533430543721 at epoch=8 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=13.05532761257691 at epoch=8 from raw
+9/240| loss1=0.02222, latent=0.00144, mono=0.00001, recon=0.18936, smooth=0.03770, decor=0.31076, lf=0.125, mf=0.500, rmse=13.09143, ema_rmse=none, selected=raw:13.09143
+10/240| loss1=0.02163, latent=0.00160, mono=0.00001, recon=0.17538, smooth=0.04230, decor=0.28108, lf=0.150, mf=0.550, rmse=12.48837, ema_rmse=none, selected=raw:12.48837
+min=12.488371996978325 at epoch=10 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=12.688495972767383 at epoch=10 from raw
+11/240| loss1=0.02159, latent=0.00166, mono=0.00001, recon=0.15543, smooth=0.04788, decor=0.25128, lf=0.175, mf=0.600, rmse=12.50174, ema_rmse=none, selected=raw:12.50174
+12/240| loss1=0.02123, latent=0.00175, mono=0.00001, recon=0.14245, smooth=0.05193, decor=0.22930, lf=0.200, mf=0.650, rmse=12.37212, ema_rmse=none, selected=raw:12.37212
+min=12.372122462263363 at epoch=12 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=12.520301291573823 at epoch=12 from raw
+13/240| loss1=0.02087, latent=0.00184, mono=0.00001, recon=0.13310, smooth=0.05297, decor=0.21563, lf=0.225, mf=0.700, rmse=13.74788, ema_rmse=none, selected=raw:13.74788
+14/240| loss1=0.02075, latent=0.00193, mono=0.00001, recon=0.12494, smooth=0.05489, decor=0.20930, lf=0.250, mf=0.750, rmse=12.04310, ema_rmse=none, selected=raw:12.04310
+min=12.043103004889801 at epoch=14 from raw
+global eval_best kept: existing canonical checkpoint has no metadata; use --protect_evalbest 0 to replace it (run checkpoint=save/final/latent_evalbest_24_train_FD002_to_FD004_type3_20260616-122302.pth)
+eval_all_min=12.170842376558422 at epoch=14 from raw
+15/240| loss1=0.02039, latent=0.00198, mono=0.00001, recon=0.11618, smooth=0.05616, decor=0.20230, lf=0.275, mf=0.800, rmse=12.16266, ema_rmse=none, selected=raw:12.16266
+16/240| loss1=0.02030, latent=0.00203, mono=0.00002, recon=0.10885, smooth=0.05662, decor=0.19587, lf=0.300, mf=0.850, rmse=12.37971, ema_rmse=none, selected=raw:12.37971
+17/240| loss1=0.02022, latent=0.00211, mono=0.00002, recon=0.10413, smooth=0.05596, decor=0.19213, lf=0.325, mf=0.900, rmse=14.33558, ema_rmse=none, selected=raw:14.33558
+18/240| loss1=0.01990, latent=0.00221, mono=0.00002, recon=0.10087, smooth=0.05446, decor=0.19035, lf=0.350, mf=0.950, rmse=12.42293, ema_rmse=none, selected=raw:12.42293
+19/240| loss1=0.01949, latent=0.00229, mono=0.00002, recon=0.09770, smooth=0.05409, decor=0.18943, lf=0.375, mf=1.000, rmse=12.76621, ema_rmse=none, selected=raw:12.76621
+20/240| loss1=0.01974, latent=0.00243, mono=0.00002, recon=0.09734, smooth=0.05349, decor=0.18838, lf=0.400, mf=1.000, rmse=17.70572, ema_rmse=none, selected=raw:17.70572
+21/240| loss1=0.01915, latent=0.00253, mono=0.00002, recon=0.09505, smooth=0.05346, decor=0.18674, lf=0.425, mf=1.000, rmse=13.64192, ema_rmse=none, selected=raw:13.64192
+22/240| loss1=0.01897, latent=0.00259, mono=0.00002, recon=0.09193, smooth=0.05325, decor=0.18571, lf=0.450, mf=1.000, rmse=15.65111, ema_rmse=none, selected=raw:15.65111
+23/240| loss1=0.01852, latent=0.00259, mono=0.00002, recon=0.08734, smooth=0.05341, decor=0.18551, lf=0.475, mf=1.000, rmse=14.68466, ema_rmse=none, selected=raw:14.68466
+24/240| loss1=0.01837, latent=0.00265, mono=0.00002, recon=0.08493, smooth=0.05311, decor=0.18404, lf=0.500, mf=1.000, rmse=15.16395, ema_rmse=none, selected=raw:15.16395
+25/240| loss1=0.01757, latent=0.00271, mono=0.00002, recon=0.08278, smooth=0.05241, decor=0.18384, lf=0.525, mf=1.000, rmse=15.57668, ema_rmse=none, selected=raw:15.57668
+26/240| loss1=0.01728, latent=0.00277, mono=0.00002, recon=0.08077, smooth=0.05096, decor=0.18381, lf=0.550, mf=1.000, rmse=20.54190, ema_rmse=none, selected=raw:20.54190
+27/240| loss1=0.01672, latent=0.00287, mono=0.00002, recon=0.08032, smooth=0.04942, decor=0.18418, lf=0.575, mf=1.000, rmse=17.66387, ema_rmse=none, selected=raw:17.66387
+28/240| loss1=0.01575, latent=0.00298, mono=0.00002, recon=0.07977, smooth=0.04850, decor=0.18472, lf=0.600, mf=1.000, rmse=16.66621, ema_rmse=none, selected=raw:16.66621
+29/240| loss1=0.01464, latent=0.00304, mono=0.00002, recon=0.07839, smooth=0.04730, decor=0.18382, lf=0.625, mf=1.000, rmse=15.55080, ema_rmse=none, selected=raw:15.55080
+30/240| loss1=0.01441, latent=0.00310, mono=0.00002, recon=0.07679, smooth=0.04553, decor=0.18234, lf=0.650, mf=1.000, rmse=19.42030, ema_rmse=none, selected=raw:19.42030
+31/240| loss1=0.01398, latent=0.00318, mono=0.00002, recon=0.07583, smooth=0.04426, decor=0.17684, lf=0.675, mf=1.000, rmse=13.75339, ema_rmse=none, selected=raw:13.75339
+32/240| loss1=0.01363, latent=0.00325, mono=0.00002, recon=0.07496, smooth=0.04369, decor=0.16437, lf=0.700, mf=1.000, rmse=14.67856, ema_rmse=none, selected=raw:14.67856
+33/240| loss1=0.01332, latent=0.00331, mono=0.00002, recon=0.07389, smooth=0.04345, decor=0.15670, lf=0.725, mf=1.000, rmse=19.08737, ema_rmse=none, selected=raw:19.08737
+34/240| loss1=0.01286, latent=0.00335, mono=0.00002, recon=0.07204, smooth=0.04332, decor=0.15500, lf=0.750, mf=1.000, rmse=16.13763, ema_rmse=none, selected=raw:16.13763
+35/240| loss1=0.01270, latent=0.00336, mono=0.00002, recon=0.07001, smooth=0.04275, decor=0.15517, lf=0.775, mf=1.000, rmse=17.55000, ema_rmse=none, selected=raw:17.55000
+36/240| loss1=0.01259, latent=0.00338, mono=0.00002, recon=0.06815, smooth=0.04195, decor=0.15521, lf=0.800, mf=1.000, rmse=14.99275, ema_rmse=none, selected=raw:14.99275
+37/240| loss1=0.01217, latent=0.00342, mono=0.00002, recon=0.06681, smooth=0.04085, decor=0.15581, lf=0.825, mf=1.000, rmse=16.15189, ema_rmse=none, selected=raw:16.15189
+38/240| loss1=0.01219, latent=0.00346, mono=0.00002, recon=0.06578, smooth=0.03979, decor=0.15574, lf=0.850, mf=1.000, rmse=14.98216, ema_rmse=none, selected=raw:14.98216
+39/240| loss1=0.01173, latent=0.00349, mono=0.00002, recon=0.06458, smooth=0.03859, decor=0.15561, lf=0.875, mf=1.000, rmse=15.92728, ema_rmse=none, selected=raw:15.92728
+40/240| loss1=0.01175, latent=0.00353, mono=0.00002, recon=0.06342, smooth=0.03728, decor=0.15598, lf=0.900, mf=1.000, rmse=15.46478, ema_rmse=none, selected=raw:15.46478
+41/240| loss1=0.01141, latent=0.00353, mono=0.00002, recon=0.06177, smooth=0.03580, decor=0.15667, lf=0.925, mf=1.000, rmse=14.51597, ema_rmse=none, selected=raw:14.51597
+42/240| loss1=0.01155, latent=0.00350, mono=0.00002, recon=0.05959, smooth=0.03421, decor=0.15757, lf=0.950, mf=1.000, rmse=16.66993, ema_rmse=none, selected=raw:16.66993
+43/240| loss1=0.01142, latent=0.00342, mono=0.00002, recon=0.05650, smooth=0.03286, decor=0.15894, lf=0.975, mf=1.000, rmse=13.44698, ema_rmse=none, selected=raw:13.44698
+44/240| loss1=0.01147, latent=0.00328, mono=0.00002, recon=0.05284, smooth=0.03144, decor=0.16085, lf=1.000, mf=1.000, rmse=19.72464, ema_rmse=none, selected=raw:19.72464
+45/240| loss1=0.01142, latent=0.00304, mono=0.00002, recon=0.04860, smooth=0.03089, decor=0.16320, lf=1.000, mf=1.000, rmse=15.28388, ema_rmse=none, selected=raw:15.28388
+46/240| loss1=0.01123, latent=0.00282, mono=0.00002, recon=0.04482, smooth=0.03059, decor=0.16501, lf=1.000, mf=1.000, rmse=14.39175, ema_rmse=none, selected=raw:14.39175
+47/240| loss1=0.01125, latent=0.00266, mono=0.00002, recon=0.04221, smooth=0.02981, decor=0.16614, lf=1.000, mf=1.000, rmse=16.66504, ema_rmse=none, selected=raw:16.66504
+48/240| loss1=0.01130, latent=0.00258, mono=0.00002, recon=0.04078, smooth=0.02920, decor=0.16642, lf=1.000, mf=1.000, rmse=13.61741, ema_rmse=none, selected=raw:13.61741
+49/240| loss1=0.01119, latent=0.00253, mono=0.00002, recon=0.03989, smooth=0.02860, decor=0.16590, lf=1.000, mf=1.000, rmse=15.59674, ema_rmse=none, selected=raw:15.59674
+50/240| loss1=0.01107, latent=0.00246, mono=0.00002, recon=0.03878, smooth=0.02783, decor=0.16597, lf=1.000, mf=1.000, rmse=15.58705, ema_rmse=none, selected=raw:15.58705
+51/240| loss1=0.01089, latent=0.00240, mono=0.00002, recon=0.03781, smooth=0.02712, decor=0.16616, lf=1.000, mf=1.000, rmse=15.98317, ema_rmse=none, selected=raw:15.98317
+52/240| loss1=0.01063, latent=0.00233, mono=0.00002, recon=0.03652, smooth=0.02612, decor=0.16702, lf=1.000, mf=1.000, rmse=14.59649, ema_rmse=none, selected=raw:14.59649
+53/240| loss1=0.01078, latent=0.00226, mono=0.00002, recon=0.03542, smooth=0.02515, decor=0.16707, lf=1.000, mf=1.000, rmse=17.89185, ema_rmse=none, selected=raw:17.89185
+54/240| loss1=0.01081, latent=0.00222, mono=0.00002, recon=0.03482, smooth=0.02443, decor=0.16707, lf=1.000, mf=1.000, rmse=15.22400, ema_rmse=none, selected=raw:15.22400
+55/240| loss1=0.01052, latent=0.00216, mono=0.00002, recon=0.03370, smooth=0.02360, decor=0.16707, lf=1.000, mf=1.000, rmse=15.68252, ema_rmse=none, selected=raw:15.68252
+56/240| loss1=0.01072, latent=0.00214, mono=0.00002, recon=0.03350, smooth=0.02306, decor=0.16645, lf=1.000, mf=1.000, rmse=15.82371, ema_rmse=none, selected=raw:15.82371
+57/240| loss1=0.01076, latent=0.00212, mono=0.00002, recon=0.03310, smooth=0.02254, decor=0.16641, lf=1.000, mf=1.000, rmse=18.04263, ema_rmse=none, selected=raw:18.04263
+58/240| loss1=0.01075, latent=0.00210, mono=0.00002, recon=0.03277, smooth=0.02205, decor=0.16581, lf=1.000, mf=1.000, rmse=16.74952, ema_rmse=none, selected=raw:16.74952
+59/240| loss1=0.01059, latent=0.00208, mono=0.00002, recon=0.03243, smooth=0.02149, decor=0.16551, lf=1.000, mf=1.000, rmse=16.34295, ema_rmse=none, selected=raw:16.34295
+60/240| loss1=0.01044, latent=0.00207, mono=0.00002, recon=0.03233, smooth=0.02122, decor=0.16514, lf=1.000, mf=1.000, rmse=15.73334, ema_rmse=none, selected=raw:15.73334
+61/240| loss1=0.01034, latent=0.00205, mono=0.00002, recon=0.03192, smooth=0.02085, decor=0.16451, lf=1.000, mf=1.000, rmse=14.20949, ema_rmse=none, selected=raw:14.20949
+62/240| loss1=0.01057, latent=0.00205, mono=0.00002, recon=0.03204, smooth=0.02065, decor=0.16349, lf=1.000, mf=1.000, rmse=15.79943, ema_rmse=none, selected=raw:15.79943
+63/240| loss1=0.01036, latent=0.00205, mono=0.00002, recon=0.03209, smooth=0.02041, decor=0.16257, lf=1.000, mf=1.000, rmse=16.60559, ema_rmse=none, selected=raw:16.60559
+64/240| loss1=0.01034, latent=0.00205, mono=0.00002, recon=0.03195, smooth=0.02014, decor=0.16183, lf=1.000, mf=1.000, rmse=15.42382, ema_rmse=none, selected=raw:15.42382
+65/240| loss1=0.01016, latent=0.00204, mono=0.00002, recon=0.03180, smooth=0.01985, decor=0.16105, lf=1.000, mf=1.000, rmse=15.18284, ema_rmse=none, selected=raw:15.18284
+66/240| loss1=0.00996, latent=0.00203, mono=0.00002, recon=0.03171, smooth=0.01961, decor=0.16007, lf=1.000, mf=1.000, rmse=14.30935, ema_rmse=none, selected=raw:14.30935
+67/240| loss1=0.01029, latent=0.00204, mono=0.00002, recon=0.03179, smooth=0.01926, decor=0.15935, lf=1.000, mf=1.000, rmse=17.09874, ema_rmse=none, selected=raw:17.09874
+68/240| loss1=0.01004, latent=0.00201, mono=0.00002, recon=0.03136, smooth=0.01903, decor=0.15869, lf=1.000, mf=1.000, rmse=13.50224, ema_rmse=none, selected=raw:13.50224
+69/240| loss1=0.00994, latent=0.00201, mono=0.00002, recon=0.03141, smooth=0.01883, decor=0.15766, lf=1.000, mf=1.000, rmse=13.86916, ema_rmse=none, selected=raw:13.86916
+70/240| loss1=0.01006, latent=0.00200, mono=0.00002, recon=0.03125, smooth=0.01862, decor=0.15693, lf=1.000, mf=1.000, rmse=16.10847, ema_rmse=none, selected=raw:16.10847
+71/240| loss1=0.00984, latent=0.00200, mono=0.00002, recon=0.03118, smooth=0.01840, decor=0.15583, lf=1.000, mf=1.000, rmse=14.07562, ema_rmse=none, selected=raw:14.07562
+72/240| loss1=0.00967, latent=0.00197, mono=0.00002, recon=0.03078, smooth=0.01814, decor=0.15505, lf=1.000, mf=1.000, rmse=14.03684, ema_rmse=none, selected=raw:14.03684
+73/240| loss1=0.00978, latent=0.00196, mono=0.00002, recon=0.03065, smooth=0.01780, decor=0.15429, lf=1.000, mf=1.000, rmse=15.09481, ema_rmse=none, selected=raw:15.09481
+74/240| loss1=0.00987, latent=0.00199, mono=0.00002, recon=0.03109, smooth=0.01755, decor=0.15338, lf=1.000, mf=1.000, rmse=13.28992, ema_rmse=none, selected=raw:13.28992
+75/240| loss1=0.01002, latent=0.00199, mono=0.00002, recon=0.03118, smooth=0.01740, decor=0.15253, lf=1.000, mf=1.000, rmse=16.24118, ema_rmse=none, selected=raw:16.24118
+76/240| loss1=0.00982, latent=0.00198, mono=0.00001, recon=0.03091, smooth=0.01713, decor=0.15216, lf=1.000, mf=1.000, rmse=14.18111, ema_rmse=none, selected=raw:14.18111
+77/240| loss1=0.00988, latent=0.00198, mono=0.00002, recon=0.03091, smooth=0.01699, decor=0.15127, lf=1.000, mf=1.000, rmse=13.66873, ema_rmse=none, selected=raw:13.66873
+78/240| loss1=0.00980, latent=0.00197, mono=0.00001, recon=0.03094, smooth=0.01679, decor=0.15058, lf=1.000, mf=1.000, rmse=15.47473, ema_rmse=none, selected=raw:15.47473
+79/240| loss1=0.00961, latent=0.00198, mono=0.00002, recon=0.03089, smooth=0.01656, decor=0.14998, lf=1.000, mf=1.000, rmse=14.59801, ema_rmse=none, selected=raw:14.59801
+80/240| loss1=0.00910, latent=0.00196, mono=0.00002, recon=0.03060, smooth=0.01646, decor=0.14916, lf=1.000, mf=1.000, rmse=14.37737, ema_rmse=none, selected=raw:14.37737
+early stop at epoch 80: best_epoch=14, best_rmse=12.04310
+final_all_target_rmse = 12.170842376558422
+source=FD002, target=FD004, a=0.1, b=0.5, epochs=240, type=latent no-align, lr=0.001, scheduler=step, optimizer=adamw, weight_decay=0.0001, latent_dim=16, latent_split=0, latent_split_auto=1, deg_latent_dim=16, fault_latent_dim=0, latent_weight=0.05, target_latent_weight=0.01, latent_ramp_epoch=40, latent_max_factor=1.0, mono_weight=0.02, target_mono_weight=0.005, ema_decay=0.0, patience=60, plateau_start_epoch=45, early_stop_start_epoch=80, validate_all_target=0, final_eval_all_target=1, eval_all_every=5, eval_all_on_best=1, protect_evalbest=1, clip_rul=1, no source-target alignment
+best = 12.043103004889801, best_epoch = 14, best_source = raw, train time = 1859.6041763685644

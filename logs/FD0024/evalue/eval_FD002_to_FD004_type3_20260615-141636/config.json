@@ -1,0 +1,23 @@
+{
+  "args": {
+    "clip_rul": 1,
+    "deg_latent_dim": 0,
+    "dropout": 0.1,
+    "eval_best": 1,
+    "fault_latent_dim": 0,
+    "gpu_id": "0",
+    "latent_dim": 0,
+    "latent_hidden": 64,
+    "latent_split": -1,
+    "log_dir": "logs",
+    "model_path": "",
+    "run_id": "",
+    "sem": 1,
+    "seq_len": 70,
+    "source": "FD002",
+    "target": "FD004",
+    "type": 3
+  },
+  "checkpoint": "save/final/latent_evalbest_24.pth",
+  "mode": "eval"
+}

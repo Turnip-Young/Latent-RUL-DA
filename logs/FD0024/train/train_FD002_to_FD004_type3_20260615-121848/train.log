@@ -1,0 +1,97 @@
+logs saved to logs/train_FD002_to_FD004_type3_20260615-121848
+source=FD002, target=FD004, a=0.1, b=0.5, epochs=240, type=latent no-align, lr=0.001, scheduler=step, optimizer=adamw, weight_decay=0.0001, latent_dim=16, latent_weight=0.05, target_latent_weight=0.01, latent_ramp_epoch=40, latent_max_factor=1.0, mono_weight=0.02, target_mono_weight=0.005, ema_decay=0.0, patience=60, plateau_start_epoch=45, early_stop_start_epoch=80, validate_all_target=0, final_eval_all_target=1, eval_all_every=5, no source-target alignment
+0/240| loss1=0.06768, latent=0.00000, mono=0.00000, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.050, rmse=17.33398, ema_rmse=none, selected=raw:17.33398
+min=17.333975969324822 at epoch=0 from raw
+1/240| loss1=0.02986, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.100, rmse=13.80899, ema_rmse=none, selected=raw:13.80899
+min=13.808987260454547 at epoch=1 from raw
+2/240| loss1=0.02624, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.150, rmse=15.22359, ema_rmse=none, selected=raw:15.22359
+3/240| loss1=0.02532, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.200, rmse=13.67391, ema_rmse=none, selected=raw:13.67391
+min=13.673906154285712 at epoch=3 from raw
+4/240| loss1=0.02456, latent=0.00000, mono=0.00001, recon=0.00000, smooth=0.00000, decor=0.00000, lf=0.000, mf=0.250, rmse=13.85308, ema_rmse=none, selected=raw:13.85308
+eval_all_min=14.047286274288693 at epoch=4 from raw
+5/240| loss1=0.02399, latent=0.00052, mono=0.00001, recon=0.34125, smooth=0.03854, decor=0.35085, lf=0.025, mf=0.300, rmse=15.50985, ema_rmse=none, selected=raw:15.50985
+6/240| loss1=0.02313, latent=0.00071, mono=0.00001, recon=0.23308, smooth=0.03513, decor=0.35804, lf=0.050, mf=0.350, rmse=15.90914, ema_rmse=none, selected=raw:15.90914
+7/240| loss1=0.02295, latent=0.00098, mono=0.00001, recon=0.21421, smooth=0.03474, decor=0.34873, lf=0.075, mf=0.400, rmse=12.91251, ema_rmse=none, selected=raw:12.91251
+min=12.912508895358833 at epoch=7 from raw
+8/240| loss1=0.02226, latent=0.00123, mono=0.00001, recon=0.20207, smooth=0.03527, decor=0.33601, lf=0.100, mf=0.450, rmse=13.72390, ema_rmse=none, selected=raw:13.72390
+9/240| loss1=0.02195, latent=0.00142, mono=0.00001, recon=0.18651, smooth=0.03800, decor=0.31268, lf=0.125, mf=0.500, rmse=13.65153, ema_rmse=none, selected=raw:13.65153
+eval_all_min=13.755115451954799 at epoch=9 from raw
+10/240| loss1=0.02180, latent=0.00156, mono=0.00001, recon=0.17054, smooth=0.04298, decor=0.28371, lf=0.150, mf=0.550, rmse=13.13641, ema_rmse=none, selected=raw:13.13641
+11/240| loss1=0.02166, latent=0.00164, mono=0.00001, recon=0.15265, smooth=0.04850, decor=0.25065, lf=0.175, mf=0.600, rmse=12.80093, ema_rmse=none, selected=raw:12.80093
+min=12.800927543571857 at epoch=11 from raw
+12/240| loss1=0.02114, latent=0.00172, mono=0.00001, recon=0.13956, smooth=0.05245, decor=0.22259, lf=0.200, mf=0.650, rmse=13.43805, ema_rmse=none, selected=raw:13.43805
+13/240| loss1=0.02091, latent=0.00180, mono=0.00001, recon=0.12946, smooth=0.05390, decor=0.21205, lf=0.225, mf=0.700, rmse=12.27669, ema_rmse=none, selected=raw:12.27669
+min=12.276690592977067 at epoch=13 from raw
+14/240| loss1=0.02053, latent=0.00185, mono=0.00001, recon=0.11992, smooth=0.05587, decor=0.20553, lf=0.250, mf=0.750, rmse=11.88410, ema_rmse=none, selected=raw:11.88410
+min=11.884100590507106 at epoch=14 from raw
+eval_all_min=12.030367246643653 at epoch=14 from raw
+15/240| loss1=0.02052, latent=0.00191, mono=0.00001, recon=0.11194, smooth=0.05606, decor=0.19747, lf=0.275, mf=0.800, rmse=13.42503, ema_rmse=none, selected=raw:13.42503
+16/240| loss1=0.02034, latent=0.00201, mono=0.00002, recon=0.10756, smooth=0.05582, decor=0.19292, lf=0.300, mf=0.850, rmse=12.09162, ema_rmse=none, selected=raw:12.09162
+17/240| loss1=0.01979, latent=0.00208, mono=0.00002, recon=0.10236, smooth=0.05507, decor=0.18959, lf=0.325, mf=0.900, rmse=15.16348, ema_rmse=none, selected=raw:15.16348
+18/240| loss1=0.02005, latent=0.00217, mono=0.00002, recon=0.09929, smooth=0.05212, decor=0.18980, lf=0.350, mf=0.950, rmse=12.18208, ema_rmse=none, selected=raw:12.18208
+19/240| loss1=0.01948, latent=0.00225, mono=0.00002, recon=0.09591, smooth=0.05249, decor=0.18793, lf=0.375, mf=1.000, rmse=12.63704, ema_rmse=none, selected=raw:12.63704
+20/240| loss1=0.01963, latent=0.00231, mono=0.00002, recon=0.09187, smooth=0.05180, decor=0.18895, lf=0.400, mf=1.000, rmse=12.92132, ema_rmse=none, selected=raw:12.92132
+21/240| loss1=0.01912, latent=0.00241, mono=0.00002, recon=0.09023, smooth=0.05157, decor=0.19091, lf=0.425, mf=1.000, rmse=14.07796, ema_rmse=none, selected=raw:14.07796
+22/240| loss1=0.01889, latent=0.00245, mono=0.00002, recon=0.08692, smooth=0.05192, decor=0.19556, lf=0.450, mf=1.000, rmse=13.78601, ema_rmse=none, selected=raw:13.78601
+23/240| loss1=0.01867, latent=0.00252, mono=0.00002, recon=0.08473, smooth=0.05161, decor=0.19656, lf=0.475, mf=1.000, rmse=13.41099, ema_rmse=none, selected=raw:13.41099
+24/240| loss1=0.01844, latent=0.00258, mono=0.00002, recon=0.08219, smooth=0.05042, decor=0.19853, lf=0.500, mf=1.000, rmse=12.57787, ema_rmse=none, selected=raw:12.57787
+25/240| loss1=0.01764, latent=0.00265, mono=0.00002, recon=0.08049, smooth=0.04993, decor=0.19944, lf=0.525, mf=1.000, rmse=15.17657, ema_rmse=none, selected=raw:15.17657
+26/240| loss1=0.01674, latent=0.00269, mono=0.00002, recon=0.07792, smooth=0.04896, decor=0.20184, lf=0.550, mf=1.000, rmse=13.39176, ema_rmse=none, selected=raw:13.39176
+27/240| loss1=0.01583, latent=0.00275, mono=0.00002, recon=0.07636, smooth=0.04815, decor=0.20298, lf=0.575, mf=1.000, rmse=12.89030, ema_rmse=none, selected=raw:12.89030
+28/240| loss1=0.01486, latent=0.00280, mono=0.00002, recon=0.07441, smooth=0.04720, decor=0.20387, lf=0.600, mf=1.000, rmse=15.07875, ema_rmse=none, selected=raw:15.07875
+29/240| loss1=0.01429, latent=0.00287, mono=0.00002, recon=0.07349, smooth=0.04629, decor=0.20215, lf=0.625, mf=1.000, rmse=14.99864, ema_rmse=none, selected=raw:14.99864
+30/240| loss1=0.01408, latent=0.00293, mono=0.00002, recon=0.07199, smooth=0.04527, decor=0.19871, lf=0.650, mf=1.000, rmse=13.93666, ema_rmse=none, selected=raw:13.93666
+31/240| loss1=0.01348, latent=0.00294, mono=0.00002, recon=0.06944, smooth=0.04499, decor=0.19421, lf=0.675, mf=1.000, rmse=16.80840, ema_rmse=none, selected=raw:16.80840
+32/240| loss1=0.01321, latent=0.00294, mono=0.00002, recon=0.06705, smooth=0.04446, decor=0.18930, lf=0.700, mf=1.000, rmse=20.80819, ema_rmse=none, selected=raw:20.80819
+33/240| loss1=0.01300, latent=0.00296, mono=0.00002, recon=0.06505, smooth=0.04359, decor=0.18246, lf=0.725, mf=1.000, rmse=13.88165, ema_rmse=none, selected=raw:13.88165
+34/240| loss1=0.01242, latent=0.00300, mono=0.00002, recon=0.06385, smooth=0.04309, decor=0.17218, lf=0.750, mf=1.000, rmse=19.37291, ema_rmse=none, selected=raw:19.37291
+35/240| loss1=0.01260, latent=0.00304, mono=0.00002, recon=0.06274, smooth=0.04161, decor=0.16406, lf=0.775, mf=1.000, rmse=14.29087, ema_rmse=none, selected=raw:14.29087
+36/240| loss1=0.01221, latent=0.00310, mono=0.00002, recon=0.06197, smooth=0.04029, decor=0.16146, lf=0.800, mf=1.000, rmse=16.75100, ema_rmse=none, selected=raw:16.75100
+37/240| loss1=0.01205, latent=0.00313, mono=0.00002, recon=0.06072, smooth=0.03839, decor=0.16115, lf=0.825, mf=1.000, rmse=14.29167, ema_rmse=none, selected=raw:14.29167
+38/240| loss1=0.01212, latent=0.00317, mono=0.00002, recon=0.05984, smooth=0.03645, decor=0.16193, lf=0.850, mf=1.000, rmse=14.64702, ema_rmse=none, selected=raw:14.64702
+39/240| loss1=0.01192, latent=0.00313, mono=0.00002, recon=0.05739, smooth=0.03453, decor=0.16435, lf=0.875, mf=1.000, rmse=15.56546, ema_rmse=none, selected=raw:15.56546
+40/240| loss1=0.01178, latent=0.00299, mono=0.00002, recon=0.05344, smooth=0.03292, decor=0.16740, lf=0.900, mf=1.000, rmse=13.42650, ema_rmse=none, selected=raw:13.42650
+41/240| loss1=0.01169, latent=0.00284, mono=0.00002, recon=0.04903, smooth=0.03167, decor=0.16958, lf=0.925, mf=1.000, rmse=15.46527, ema_rmse=none, selected=raw:15.46527
+42/240| loss1=0.01193, latent=0.00276, mono=0.00002, recon=0.04614, smooth=0.03122, decor=0.16951, lf=0.950, mf=1.000, rmse=17.04076, ema_rmse=none, selected=raw:17.04076
+43/240| loss1=0.01157, latent=0.00273, mono=0.00002, recon=0.04437, smooth=0.03098, decor=0.16874, lf=0.975, mf=1.000, rmse=15.33707, ema_rmse=none, selected=raw:15.33707
+44/240| loss1=0.01132, latent=0.00272, mono=0.00002, recon=0.04303, smooth=0.03067, decor=0.16684, lf=1.000, mf=1.000, rmse=18.81904, ema_rmse=none, selected=raw:18.81904
+45/240| loss1=0.01137, latent=0.00267, mono=0.00002, recon=0.04229, smooth=0.02981, decor=0.16583, lf=1.000, mf=1.000, rmse=17.93940, ema_rmse=none, selected=raw:17.93940
+46/240| loss1=0.01134, latent=0.00265, mono=0.00002, recon=0.04208, smooth=0.02896, decor=0.16417, lf=1.000, mf=1.000, rmse=17.49474, ema_rmse=none, selected=raw:17.49474
+47/240| loss1=0.01140, latent=0.00262, mono=0.00002, recon=0.04168, smooth=0.02825, decor=0.16304, lf=1.000, mf=1.000, rmse=15.54576, ema_rmse=none, selected=raw:15.54576
+48/240| loss1=0.01137, latent=0.00262, mono=0.00002, recon=0.04175, smooth=0.02762, decor=0.16233, lf=1.000, mf=1.000, rmse=14.33261, ema_rmse=none, selected=raw:14.33261
+49/240| loss1=0.01112, latent=0.00262, mono=0.00002, recon=0.04170, smooth=0.02703, decor=0.16150, lf=1.000, mf=1.000, rmse=17.21282, ema_rmse=none, selected=raw:17.21282
+50/240| loss1=0.01105, latent=0.00262, mono=0.00002, recon=0.04192, smooth=0.02659, decor=0.16056, lf=1.000, mf=1.000, rmse=13.81025, ema_rmse=none, selected=raw:13.81025
+51/240| loss1=0.01120, latent=0.00261, mono=0.00002, recon=0.04170, smooth=0.02625, decor=0.15994, lf=1.000, mf=1.000, rmse=16.71325, ema_rmse=none, selected=raw:16.71325
+52/240| loss1=0.01063, latent=0.00264, mono=0.00002, recon=0.04213, smooth=0.02593, decor=0.15923, lf=1.000, mf=1.000, rmse=16.14335, ema_rmse=none, selected=raw:16.14335
+53/240| loss1=0.01090, latent=0.00264, mono=0.00002, recon=0.04232, smooth=0.02562, decor=0.15801, lf=1.000, mf=1.000, rmse=15.00565, ema_rmse=none, selected=raw:15.00565
+54/240| loss1=0.01059, latent=0.00266, mono=0.00002, recon=0.04264, smooth=0.02554, decor=0.15750, lf=1.000, mf=1.000, rmse=18.12269, ema_rmse=none, selected=raw:18.12269
+55/240| loss1=0.01062, latent=0.00268, mono=0.00002, recon=0.04303, smooth=0.02531, decor=0.15721, lf=1.000, mf=1.000, rmse=15.99825, ema_rmse=none, selected=raw:15.99825
+56/240| loss1=0.01066, latent=0.00271, mono=0.00002, recon=0.04341, smooth=0.02506, decor=0.15703, lf=1.000, mf=1.000, rmse=14.11363, ema_rmse=none, selected=raw:14.11363
+57/240| loss1=0.01067, latent=0.00273, mono=0.00002, recon=0.04380, smooth=0.02508, decor=0.15618, lf=1.000, mf=1.000, rmse=14.10534, ema_rmse=none, selected=raw:14.10534
+58/240| loss1=0.01048, latent=0.00272, mono=0.00002, recon=0.04356, smooth=0.02497, decor=0.15533, lf=1.000, mf=1.000, rmse=17.11005, ema_rmse=none, selected=raw:17.11005
+59/240| loss1=0.01057, latent=0.00270, mono=0.00002, recon=0.04327, smooth=0.02471, decor=0.15483, lf=1.000, mf=1.000, rmse=14.48152, ema_rmse=none, selected=raw:14.48152
+60/240| loss1=0.01057, latent=0.00268, mono=0.00002, recon=0.04302, smooth=0.02439, decor=0.15366, lf=1.000, mf=1.000, rmse=14.69929, ema_rmse=none, selected=raw:14.69929
+61/240| loss1=0.01059, latent=0.00270, mono=0.00002, recon=0.04336, smooth=0.02418, decor=0.15256, lf=1.000, mf=1.000, rmse=15.30135, ema_rmse=none, selected=raw:15.30135
+62/240| loss1=0.01027, latent=0.00270, mono=0.00002, recon=0.04344, smooth=0.02400, decor=0.15129, lf=1.000, mf=1.000, rmse=16.89554, ema_rmse=none, selected=raw:16.89554
+63/240| loss1=0.01025, latent=0.00271, mono=0.00002, recon=0.04361, smooth=0.02382, decor=0.15078, lf=1.000, mf=1.000, rmse=16.56848, ema_rmse=none, selected=raw:16.56848
+64/240| loss1=0.01031, latent=0.00271, mono=0.00002, recon=0.04363, smooth=0.02367, decor=0.14960, lf=1.000, mf=1.000, rmse=15.77841, ema_rmse=none, selected=raw:15.77841
+65/240| loss1=0.01031, latent=0.00270, mono=0.00002, recon=0.04346, smooth=0.02340, decor=0.14836, lf=1.000, mf=1.000, rmse=19.13115, ema_rmse=none, selected=raw:19.13115
+66/240| loss1=0.01010, latent=0.00272, mono=0.00002, recon=0.04389, smooth=0.02329, decor=0.14652, lf=1.000, mf=1.000, rmse=15.05042, ema_rmse=none, selected=raw:15.05042
+67/240| loss1=0.01008, latent=0.00269, mono=0.00002, recon=0.04335, smooth=0.02285, decor=0.14464, lf=1.000, mf=1.000, rmse=13.65496, ema_rmse=none, selected=raw:13.65496
+68/240| loss1=0.01022, latent=0.00266, mono=0.00002, recon=0.04285, smooth=0.02265, decor=0.14199, lf=1.000, mf=1.000, rmse=17.29132, ema_rmse=none, selected=raw:17.29132
+69/240| loss1=0.01041, latent=0.00263, mono=0.00002, recon=0.04234, smooth=0.02222, decor=0.13953, lf=1.000, mf=1.000, rmse=17.89673, ema_rmse=none, selected=raw:17.89673
+70/240| loss1=0.01002, latent=0.00267, mono=0.00002, recon=0.04324, smooth=0.02226, decor=0.13673, lf=1.000, mf=1.000, rmse=14.18836, ema_rmse=none, selected=raw:14.18836
+71/240| loss1=0.01015, latent=0.00265, mono=0.00002, recon=0.04292, smooth=0.02197, decor=0.13417, lf=1.000, mf=1.000, rmse=13.40403, ema_rmse=none, selected=raw:13.40403
+72/240| loss1=0.01037, latent=0.00264, mono=0.00002, recon=0.04274, smooth=0.02163, decor=0.13210, lf=1.000, mf=1.000, rmse=16.33284, ema_rmse=none, selected=raw:16.33284
+73/240| loss1=0.00996, latent=0.00267, mono=0.00002, recon=0.04322, smooth=0.02142, decor=0.13069, lf=1.000, mf=1.000, rmse=15.15448, ema_rmse=none, selected=raw:15.15448
+74/240| loss1=0.01007, latent=0.00265, mono=0.00002, recon=0.04290, smooth=0.02111, decor=0.12951, lf=1.000, mf=1.000, rmse=13.65703, ema_rmse=none, selected=raw:13.65703
+75/240| loss1=0.00981, latent=0.00263, mono=0.00002, recon=0.04263, smooth=0.02081, decor=0.12884, lf=1.000, mf=1.000, rmse=14.18381, ema_rmse=none, selected=raw:14.18381
+76/240| loss1=0.00996, latent=0.00264, mono=0.00002, recon=0.04289, smooth=0.02053, decor=0.12802, lf=1.000, mf=1.000, rmse=13.64501, ema_rmse=none, selected=raw:13.64501
+77/240| loss1=0.00994, latent=0.00267, mono=0.00002, recon=0.04328, smooth=0.02026, decor=0.12693, lf=1.000, mf=1.000, rmse=14.73879, ema_rmse=none, selected=raw:14.73879
+78/240| loss1=0.00969, latent=0.00267, mono=0.00002, recon=0.04341, smooth=0.01995, decor=0.12631, lf=1.000, mf=1.000, rmse=18.04534, ema_rmse=none, selected=raw:18.04534
+79/240| loss1=0.00998, latent=0.00268, mono=0.00002, recon=0.04356, smooth=0.01968, decor=0.12573, lf=1.000, mf=1.000, rmse=15.81123, ema_rmse=none, selected=raw:15.81123
+80/240| loss1=0.00916, latent=0.00269, mono=0.00002, recon=0.04368, smooth=0.01970, decor=0.12555, lf=1.000, mf=1.000, rmse=16.74242, ema_rmse=none, selected=raw:16.74242
+early stop at epoch 80: best_epoch=14, best_rmse=11.88410
+final_all_target_rmse = 12.030367246643653
+source=FD002, target=FD004, a=0.1, b=0.5, epochs=240, type=latent no-align, lr=0.001, scheduler=step, optimizer=adamw, weight_decay=0.0001, latent_dim=16, latent_weight=0.05, target_latent_weight=0.01, latent_ramp_epoch=40, latent_max_factor=1.0, mono_weight=0.02, target_mono_weight=0.005, ema_decay=0.0, patience=60, plateau_start_epoch=45, early_stop_start_epoch=80, validate_all_target=0, final_eval_all_target=1, eval_all_every=5, no source-target alignment
+best = 11.884100590507106, best_epoch = 14, best_source = raw, train time = 1552.667039833963

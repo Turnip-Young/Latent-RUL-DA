@@ -1,0 +1,18 @@
+{
+  "args": {
+    "dropout": 0.1,
+    "gpu_id": "0",
+    "latent_dim": 0,
+    "latent_hidden": 64,
+    "log_dir": "logs",
+    "model_path": "",
+    "run_id": "",
+    "sem": 1,
+    "seq_len": 70,
+    "source": "FD002",
+    "target": "FD003",
+    "type": 3
+  },
+  "checkpoint": "save/final/latent_23.pth",
+  "mode": "eval"
+}

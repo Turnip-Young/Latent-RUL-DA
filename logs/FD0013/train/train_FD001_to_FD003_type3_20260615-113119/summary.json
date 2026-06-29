@@ -1,0 +1,9 @@
+{
+  "best_epoch": 7,
+  "best_rmse": 27.69840324477184,
+  "best_source": "raw",
+  "source": "FD001",
+  "target": "FD003",
+  "train_time_sec": 386.35748367384076,
+  "type": "latent no-align"
+}

@@ -1,0 +1,18 @@
+{
+  "best_epoch": 14,
+  "best_rmse": 12.043103004889801,
+  "best_source": "raw",
+  "deg_latent_dim": 16,
+  "eval_best_epoch": 14,
+  "eval_best_rmse": 12.170842376558422,
+  "eval_best_source": "raw",
+  "fault_latent_dim": 0,
+  "final_all_target_rmse": 12.170842376558422,
+  "latent_split": 0,
+  "latent_split_auto": 1,
+  "protect_evalbest": 1,
+  "source": "FD002",
+  "target": "FD004",
+  "train_time_sec": 1859.6041763685644,
+  "type": "latent no-align"
+}
